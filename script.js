@@ -1,6 +1,6 @@
 // Create arrays for AI and human images
-const aiImages = Array.from({length: 100}, (_, i) => `ai_image_${i+1}.webp`);
-const humanImages = Array.from({length: 200}, (_, i) => `human_image_${i+1}.webp`);
+const aiImages = Array.from({length: 100}, (_, i) => `ai_image_${i+1}.png`);
+const humanImages = Array.from({length: 200}, (_, i) => `human_image_${i+1}.png`);
 
 // Function to shuffle an array
 function shuffle(array) {
